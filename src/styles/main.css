@@ -23,6 +23,12 @@ body {
   padding: 18px 24px;
   text-transform: uppercase;
   font-weight: 900;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.button:hover {
+  background-color: #9b625d;
 }
 
 .navbar {
@@ -48,6 +54,17 @@ body {
   padding: 0 60px;
   min-height: 100px;
   background: url("../images/navbar-bg.png") no-repeat center center;
+}
+
+.navbar .nav-container a {
+  text-decoration: none;
+  color: #fff;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.navbar .nav-container a:hover {
+  color: #d1817a;
 }
 
 .navbar .nav-container .nav-logo {
@@ -119,6 +136,12 @@ body {
 .home-container .home-body a {
   text-decoration: none;
   color: #d1817a;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.home-container .home-body a:hover {
+  color: #9b625d;
 }
 
 .home-container .home-body a.button {

@@ -1,20 +1,33 @@
 import React from 'react';
+import { Link } from 'gatsby';
 
 function Navbar() {
   return (
     <div className="navbar">
       <div className="nav-container">
         <div className="nav-logo">
-          WEST<span>COAST</span>
-          <span>CLEFT</span>
+          <Link to="/">
+            WEST<span>COAST</span>
+            <span>CLEFT</span>
+          </Link>
         </div>
         <ul className="nav-links">
-          <li>Home</li>
-          <li>About</li>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/about">About</Link>
+          </li>
         </ul>
         <div className="nav-contact">
-          <div>Westcoastcleft@gmail.com</div>
-          <div>541-408-1777</div>
+          <div>
+            <a href="mailto:westcoastcleft@gmail.com">
+              westcoastcleft@gmail.com
+            </a>
+          </div>
+          <div>
+            <a href="tel:541-408-1777">541-408-1777</a>
+          </div>
         </div>
       </div>
     </div>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'gatsby';
 
 const Header = () => {
   return (
@@ -22,9 +23,9 @@ const Header = () => {
         <a href="tel:541-408-1777">541-408-1777</a> or email at
         <a href="mailto:westcoastcleft@gmail.com"> westcoastcleft@gmail.com</a>.
       </p>
-      <a href="/about" className="button">
+      <Link to="/about" className="button">
         Learn More
-      </a>
+      </Link>
     </div>
   );
 };
