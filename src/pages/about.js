@@ -26,11 +26,6 @@ const SecondPage = () => (
           width={600}
           quality={95}
           formats={['AUTO', 'WEBP', 'AVIF']}
-          style={{
-            position: 'absolute',
-            bottom: 0,
-            zIndex: -1,
-          }}
           alt="Puppy held in a hand"
         />
         <StaticImage
@@ -38,11 +33,6 @@ const SecondPage = () => (
           width={600}
           quality={95}
           formats={['AUTO', 'WEBP', 'AVIF']}
-          style={{
-            position: 'absolute',
-            bottom: 0,
-            zIndex: -1,
-          }}
           alt="Puppy held in a hand"
         />
         <StaticImage
@@ -50,11 +40,6 @@ const SecondPage = () => (
           width={600}
           quality={95}
           formats={['AUTO', 'WEBP', 'AVIF']}
-          style={{
-            position: 'absolute',
-            bottom: 0,
-            zIndex: -1,
-          }}
           alt="Puppy held in a hand"
         />
       </div>
