@@ -25,14 +25,14 @@ const Layout = ({ children }) => {
   `);
 
   return (
-    <div className="container">
+    <>
       <Navbar siteTitle={data.site.siteMetadata?.title || `Title`} />
       <MobileNavbar />
       <div>
-        <main>{children}</main>
+        <main className="container">{children}</main>
         <footer></footer>
       </div>
-    </div>
+    </>
   );
 };
 
