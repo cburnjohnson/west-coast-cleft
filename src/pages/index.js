@@ -11,12 +11,18 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <div className="home-container">
+      <h1>West Coast Cleft</h1>
       <Header />
       <StaticImage
         src="../images/homepage-pup.png"
-        width={598}
+        width={600}
         quality={95}
         formats={['AUTO', 'WEBP', 'AVIF']}
+        style={{
+          position: 'absolute',
+          bottom: 0,
+          zIndex: -1,
+        }}
         alt="Puppy held in a hand"
       />
     </div>

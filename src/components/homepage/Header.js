@@ -2,8 +2,7 @@ import React from 'react';
 
 const Header = () => {
   return (
-    <>
-      <h1>West Coast Cleft</h1>
+    <div className="home-body">
       <p>
         Our Mission here at West Coast Cleft is to help care for and save any
         newborn puppy or kitten that is born with any congenital defects,
@@ -25,7 +24,7 @@ const Header = () => {
       <a href="/about" className="button">
         Learn More
       </a>
-    </>
+    </div>
   );
 };
 
