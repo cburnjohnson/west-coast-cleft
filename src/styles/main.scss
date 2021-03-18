@@ -14,6 +14,10 @@ body {
   background-color: $primary-bg;
   font-family: 'Roboto', sans-serif;
   color: $white;
+
+  @media (max-width: 767px) {
+    overflow: hidden;
+  }
 }
 
 .button {
@@ -62,11 +66,23 @@ body {
       li {
         margin-right: 2.25em;
       }
+
+      @media (max-width: 1200px) {
+        min-width: 500px;
+      }
+
+      @media (max-width: 1000px) {
+        min-width: 300px;
+      }
     }
 
     .nav-contact {
       text-align: center;
     }
+  }
+
+  @media (max-width: 767px) {
+    display: none;
   }
 }
 
@@ -102,6 +118,36 @@ body {
       right: 0;
       margin-top: 1.75em;
       color: $white;
+    }
+  }
+
+  @media (max-width: 767px) {
+    h1 {
+      margin-top: 1em;
+      font-size: 72px;
+    }
+
+    .home-body {
+      width: 500px;
+
+      p {
+        font-size: 20px;
+      }
+    }
+  }
+
+  @media (max-width: 500px) {
+    h1 {
+      margin-top: 1.5em;
+      font-size: 42px;
+    }
+
+    .home-body {
+      width: 375px;
+
+      p {
+        font-size: 18px;
+      }
     }
   }
 }

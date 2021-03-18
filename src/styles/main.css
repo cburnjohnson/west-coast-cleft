@@ -9,6 +9,12 @@ body {
   color: #fff;
 }
 
+@media (max-width: 767px) {
+  body {
+    overflow: hidden;
+  }
+}
+
 .button {
   border-radius: 8px;
   background-color: #d1817a;
@@ -67,8 +73,26 @@ body {
   margin-right: 2.25em;
 }
 
+@media (max-width: 1200px) {
+  .navbar .nav-container .nav-links {
+    min-width: 500px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .navbar .nav-container .nav-links {
+    min-width: 300px;
+  }
+}
+
 .navbar .nav-container .nav-contact {
   text-align: center;
+}
+
+@media (max-width: 767px) {
+  .navbar {
+    display: none;
+  }
 }
 
 .home-container h1 {
@@ -102,5 +126,31 @@ body {
   right: 0;
   margin-top: 1.75em;
   color: #fff;
+}
+
+@media (max-width: 767px) {
+  .home-container h1 {
+    margin-top: 1em;
+    font-size: 72px;
+  }
+  .home-container .home-body {
+    width: 500px;
+  }
+  .home-container .home-body p {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .home-container h1 {
+    margin-top: 1.5em;
+    font-size: 42px;
+  }
+  .home-container .home-body {
+    width: 375px;
+  }
+  .home-container .home-body p {
+    font-size: 18px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
