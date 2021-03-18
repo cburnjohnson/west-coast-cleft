@@ -18,8 +18,9 @@ const Header = () => {
       </p>
       <p>
         If you have a neonate that is in need of our care please contact us
-        IMMEDIATELY either by phone/text 541-408-1777 or email at
-        westcoastcleft@gmail.com.
+        IMMEDIATELY either by phone/text{' '}
+        <a href="tel:541-408-1777">541-408-1777</a> or email at
+        <a href="mailto:westcoastcleft@gmail.com"> westcoastcleft@gmail.com</a>.
       </p>
       <a href="/about" className="button">
         Learn More
