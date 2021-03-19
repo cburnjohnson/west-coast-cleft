@@ -105,10 +105,10 @@
   position: absolute;
   width: 100%;
   margin: -100px 0 0 -50px;
-  padding: 50px;
+  padding: 20px 40px;
   padding-top: 125px;
 
-  background: #ededed;
+  background: #d1817a;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
@@ -122,6 +122,7 @@
 #menu li {
   padding: 10px 0;
   font-size: 22px;
+  text-transform: uppercase;
 }
 
 /*
