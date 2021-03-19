@@ -22,6 +22,7 @@ const IndexPage = () => (
         bottom: 0,
         zIndex: -1,
       }}
+      className="homepage-img"
       alt="Puppy held in a hand"
     />
   </Layout>

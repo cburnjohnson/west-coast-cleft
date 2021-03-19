@@ -11,7 +11,7 @@ body {
 
 @media (max-width: 767px) {
   body {
-    overflow: hidden;
+    overflow-x: hidden;
   }
 }
 
@@ -219,11 +219,14 @@ body {
   .container p {
     font-size: 18px;
   }
+  .container .homepage-img {
+    display: none;
+  }
   .container .home-body {
-    width: 375px;
+    width: 350px;
   }
   .container .about-body {
-    width: 375px;
+    width: 350px;
   }
 }
 /*# sourceMappingURL=main.css.map */

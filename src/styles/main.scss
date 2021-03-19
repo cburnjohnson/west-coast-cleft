@@ -18,7 +18,7 @@ body {
   color: $white;
 
   @media (max-width: 767px) {
-    overflow: hidden;
+    overflow-x: hidden;
   }
 }
 
@@ -220,12 +220,16 @@ body {
       font-size: 18px;
     }
 
+    .homepage-img {
+      display: none;
+    }
+
     .home-body {
-      width: 375px;
+      width: 350px;
     }
 
     .about-body {
-      width: 375px;
+      width: 350px;
     }
   }
 }
