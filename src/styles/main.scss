@@ -167,6 +167,20 @@ body {
     }
   }
 
+  @media (max-width: 1064px) {
+    .about-body {
+      max-width: 700px;
+
+      .about-img-container {
+        div.img-row {
+          img {
+            width: 80%;
+          }
+        }
+      }
+    }
+  }
+
   @media (max-width: 767px) {
     h1 {
       margin-top: 1em;
@@ -179,6 +193,20 @@ body {
 
     .home-body {
       width: 500px;
+    }
+
+    .about-body {
+      width: 600px;
+
+      p:first-of-type {
+        margin-top: 10px;
+      }
+    }
+  }
+
+  @media (max-width: 625px) {
+    .about-body {
+      width: 490px;
     }
   }
 
@@ -193,6 +221,10 @@ body {
     }
 
     .home-body {
+      width: 375px;
+    }
+
+    .about-body {
       width: 375px;
     }
   }
