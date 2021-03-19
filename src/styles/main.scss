@@ -103,7 +103,7 @@ body {
   }
 }
 
-// Homepage Styling
+// Page Styling
 .container {
   p {
     font-size: 22px;
@@ -149,6 +149,21 @@ body {
 
     h1 {
       text-align: left;
+    }
+
+    .about-img-container {
+      div.img-row {
+        display: flex;
+        justify-content: space-between;
+
+        img {
+          border-radius: 8px;
+        }
+      }
+    }
+
+    .about-img-container.last {
+      margin-bottom: 32.2px;
     }
   }
 

@@ -21,27 +21,29 @@ const SecondPage = () => (
       </p>
       <p>We are offering these babies a chance at life.</p>
       <div className="about-img-container">
-        <StaticImage
-          src="./images/about/about-1.jpg"
-          width={600}
-          quality={95}
-          formats={['AUTO', 'WEBP', 'AVIF']}
-          alt="Puppy held in a hand"
-        />
-        <StaticImage
-          src="./images/about/about-1.jpg"
-          width={600}
-          quality={95}
-          formats={['AUTO', 'WEBP', 'AVIF']}
-          alt="Puppy held in a hand"
-        />
-        <StaticImage
-          src="./images/about/about-1.jpg"
-          width={600}
-          quality={95}
-          formats={['AUTO', 'WEBP', 'AVIF']}
-          alt="Puppy held in a hand"
-        />
+        <div className="img-row">
+          <StaticImage
+            src="../images/about-1.jpg"
+            width={300}
+            quality={95}
+            formats={['AUTO', 'WEBP', 'AVIF']}
+            alt="Puppy held in a hand"
+          />
+          <StaticImage
+            src="../images/about-2.jpg"
+            width={300}
+            quality={95}
+            formats={['AUTO', 'WEBP', 'AVIF']}
+            alt="Puppy held in a hand"
+          />
+          <StaticImage
+            src="../images/about-3.jpg"
+            width={300}
+            quality={95}
+            formats={['AUTO', 'WEBP', 'AVIF']}
+            alt="Puppy held in a hand"
+          />
+        </div>
       </div>
       <p>
         Due to high complication rate that requires medical intervention our
@@ -60,6 +62,31 @@ const SecondPage = () => (
         always hope for mutual commitment and willingness to travel. Please
         contact us so we can further discuss options.
       </p>
+      <div className="about-img-container last">
+        <div className="img-row">
+          <StaticImage
+            src="../images/about-4.jpg"
+            width={300}
+            quality={95}
+            formats={['AUTO', 'WEBP', 'AVIF']}
+            alt="Puppy held in a hand"
+          />
+          <StaticImage
+            src="../images/about-5.png"
+            width={300}
+            quality={95}
+            formats={['AUTO', 'WEBP', 'AVIF']}
+            alt="Puppy held in a hand"
+          />
+          <StaticImage
+            src="../images/about-6.jpg"
+            width={300}
+            quality={95}
+            formats={['AUTO', 'WEBP', 'AVIF']}
+            alt="Puppy held in a hand"
+          />
+        </div>
+      </div>
     </div>
   </Layout>
 );
