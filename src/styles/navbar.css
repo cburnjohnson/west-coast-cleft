@@ -1,3 +1,8 @@
+.mobile-navbar {
+  min-height: 80px;
+  background: url("../images/navbar-bg.png") no-repeat center center;
+}
+
 @media (min-width: 767px) {
   .mobile-navbar {
     display: none;
