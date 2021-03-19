@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `West Coast Cleft`,
+    description: `West Coast Cleft - Help care for and save any newborn puppy or kitten that is born with any congenital defects.`,
+    author: `@cburnjohnson`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -33,4 +33,4 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
   ],
-}
+};
