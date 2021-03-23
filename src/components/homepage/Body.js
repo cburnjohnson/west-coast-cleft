@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 
-const Header = () => {
+const Body = () => {
   return (
     <div className="home-body">
       <p>
@@ -30,4 +30,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Body;

@@ -4,14 +4,14 @@ import { StaticImage } from 'gatsby-plugin-image';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 
-import Header from '../components/homepage/Header';
+import Body from '../components/homepage/Body';
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
 
     <h1>West Coast Cleft</h1>
-    <Header />
+    <Body />
     <StaticImage
       src="../images/homepage-pup.png"
       width={600}
