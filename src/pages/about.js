@@ -51,8 +51,8 @@ const SecondPage = () => (
       </p>
       <p>
         Once they are medically stable and have undergone any surgical
-        corrections as needed, along with being spayed/neuteredand fully vetted,
-        we would then find them a suitable and loving furever home. Our
+        corrections as needed, along with being spayed/neutered and fully
+        vetted, we would then find them a suitable and loving furever home. Our
         cofounder has worked in various shelter facilities along with our work
         through other local rescues and non profit organizations; thorough
         consideration will be completely prior to rehoming of all animals.
